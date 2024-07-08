@@ -1,4 +1,4 @@
-GET http://localhost:8000/api/sport/7
+GET http://localhost:8000/api/sport/1
 
 ###
 POST http://localhost:8000/api/sport

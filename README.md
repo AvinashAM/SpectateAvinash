@@ -1,6 +1,10 @@
 # TODO
+During the 60 minutes from now pelase finish following tasks.
+Do as much as possible within allocated time.
+Using supporting pseudo code is acceptable when necessary.
+
 ## 1. Finish events route
-Provide code to perform any actions required in each endpoint. 
+Add logic to the each of the endpoints inside the events route (application/routes/events.py) to the best of your knowledge.
 
 ## 2. When creating an event, the Logos property of the event needs to be populated with logo links associated with the teams participating in the event.
 

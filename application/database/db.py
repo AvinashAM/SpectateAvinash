@@ -27,6 +27,7 @@ async def setup_database(db):
             `start_time` DATETIME NULL,
             `actual_start_time` DATETIME NULL,
             `sport_id` INTEGER NOT NULL,
+            `logos` VARCHAR(255) NULL,
             CONSTRAINT `sport_id`
                 FOREIGN KEY (`sport_id`)
                 REFERENCES `sport` (`id`)

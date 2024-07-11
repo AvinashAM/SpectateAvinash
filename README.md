@@ -1,7 +1,14 @@
 # TODO
-In the next 60 minutes, please complete the following tasks.
+In the next **60 minutes**, please complete the following tasks.
 Do as much as possible within the allotted time.
-Use of supporting pseudo code is acceptable if necessary.
+**Use of supporting pseudo code is acceptable if necessary**.
+
+## SETUP
+To install virtual env, dependencies and run app, execute:
+```make setup```
+
+## DEBUGGER
+Debugger (debugpy) is installed and listens on port **5678**
 
 ## 1. Finish the events route
 Add logic to each of the endpoints within the events route (application/routes/events.py) to the best of your knowledge.

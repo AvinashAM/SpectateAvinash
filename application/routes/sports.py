@@ -1,8 +1,8 @@
-import slugify
+from slugify import slugify
 from aiosqlite import Error
 from pydantic import ValidationError
 from sanic import Blueprint
-from sanic.response import json
+from sanic.response import json, text
 
 from application.database.db import execute_query, fetch_all, fetch_one
 from application.schemas.schemas import SportCreate, SportUpdate
@@ -87,4 +87,4 @@ async def delete_sport(request, sport_id):
         )
     except Error as e:
         return json({"message": f"An error occurred: {e}"}, 500)
-    return json({"message": "Sport deleted successfully"}, 204)
+    return text('', 204)

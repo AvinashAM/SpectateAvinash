@@ -31,7 +31,7 @@ class SportBase(BaseModel):
 
 class SportCreate(SportBase):
     slug: Optional[str] = None
-    active: Optional[bool] = 1
+    active: Optional[bool] = True
 
 
 class SportUpdate(SportBase):

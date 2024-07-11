@@ -3,7 +3,7 @@
 
 ACTIVATE:=. venv/bin/activate
 
-setup: venv install
+setup: venv install run
     
 venv:
 	@echo "Creating python virtual environment in 'venv' folder..."
@@ -26,8 +26,3 @@ run:
 	@echo "Running the application..."
 	@$(ACTIVATE)
 	@python3 main.py
-
-test:
-	@echo "Running tests..."
-	@$(ACTIVATE)
-	@pytest tests

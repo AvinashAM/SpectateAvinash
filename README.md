@@ -34,7 +34,7 @@ Format of stored data in logos:
 
 If one of the links is not found, use an empty string for the missing link:
 
-**""|link_2** or **link_1|"" **.
+**""|link_2 or link_1|""**.
 
 If no link is found at all, store the null value.
 

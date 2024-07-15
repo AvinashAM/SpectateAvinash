@@ -1,6 +1,8 @@
 # TODO
 In the next **60 minutes**, please complete the following tasks.
+
 Do as much as possible within the allotted time.
+
 **Use of supporting pseudo code is acceptable if necessary**.
 
 ## SETUP

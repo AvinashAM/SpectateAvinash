@@ -5,15 +5,10 @@ Do as much as possible within the allotted time.
 
 **Use of supporting pseudo code is acceptable if necessary**.
 
-## SETUP
-To install virtual env, dependencies and run app, execute:
-```make setup```
-
-## DEBUGGER
-Debugger (debugpy) is installed and listens on port **5678**
 
 ## 1. Finish the events route
 Add logic to each of the endpoints within the events route (application/routes/events.py) to the best of your knowledge.
+
 
 ## 2. When creating an event, the Logos property of the event needs to be populated with logo links associated with the teams participating in the event.
 
@@ -42,3 +37,12 @@ If no link is found at all, store the null value.
 
 **You can assume that a successful response is always correct, so if there are multiple records in the body, always refer to the first one.
 If for any reason the system is unable to get a successful response, the failure must be logged (optionally with a reason).**.
+
+
+## SETUP
+To install virtual env, dependencies and run app, execute:
+```make setup```
+
+## DEBUGGER
+Debugger (debugpy) is installed and listens on port **5678**
+

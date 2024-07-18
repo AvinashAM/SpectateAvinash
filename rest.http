@@ -1,21 +1,48 @@
-GET http://localhost:8000/api/sport/1
+GET http://localhost:8000/api/sports/1
 
 ###
-POST http://localhost:8000/api/sport
+POST http://localhost:8000/api/sports
 Content-Type: application/json
 
 {
-  "name": "Formula X"
+  "name": "Football"
 }
 
 ###
-PATCH http://localhost:8000/api/sport/7
+PATCH http://localhost:8000/api/sports/7
 Content-Type: application/json
 
 {
-  "name": "Formula XY",
+  "name": "Football 2024",
   "active": false
 }
 
 ###
-DELETE http://localhost:8000/api/sport/7
+DELETE http://localhost:8000/api/sports/1
+
+###
+GET http://localhost:8000/api/events/1
+
+###
+POST http://localhost:8000/api/events
+Content-Type: application/json
+
+{
+  "name": "Arsenal vs Leeds",
+  "active": true, 
+  "type": "INPLAY",
+  "status": "PENDING",
+  "start_time": "12/12/2024 16:00",
+  "sport_id": 1
+}
+
+###
+PATCH http://localhost:8000/api/events/1
+Content-Type: application/json
+
+{
+  "active": false
+}
+
+###
+DELETE http://localhost:8000/api/events/1

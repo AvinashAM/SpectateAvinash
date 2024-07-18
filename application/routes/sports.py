@@ -7,10 +7,10 @@ from sanic.response import json, text
 from application.database.db import execute_query, fetch_all, fetch_one
 from application.schemas.schemas import SportCreate, SportUpdate
 
-bp = Blueprint("sport", url_prefix="/sport")
+bp = Blueprint("sports", url_prefix="/sports")
 
 @bp.route('/', methods=['GET'])
-async def get_all_events(request):
+async def get_all_sports(request):
     try:
         sports = await fetch_all(request.app.ctx.db, "SELECT * FROM sport")
     except Error as e:

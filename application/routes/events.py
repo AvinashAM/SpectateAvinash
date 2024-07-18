@@ -24,7 +24,7 @@ async def create_event(request):
 
     return response.json(event_data, status=201)
 
-@events_bp.route('/<event_id>', methods=['PUT'])
+@events_bp.route('/<event_id>', methods=['PATCH'])
 async def update_event(request, event_id):
     event_data = request.json
     # Your code to validate and update the event in the database

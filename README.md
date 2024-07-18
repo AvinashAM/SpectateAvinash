@@ -1,4 +1,4 @@
-# TODO
+# INTRO
 - In the next **60 minutes**, please complete the following tasks.
 
 - Do as much as possible within the allotted time.
@@ -8,6 +8,7 @@
 - At the end please create a **private repository** and invite **SpectateRecruitmentBE** 
 
 
+# TO DO
 ## 1. Finish the events route
 Add logic to each of the endpoints within the events route (application/routes/events.py) to the best of your knowledge.
 
@@ -44,7 +45,7 @@ If no link is found at all, store the null value.
 If for any reason the system is unable to get a successful response, the failure must be logged (optionally with a reason).**.
 
 
-## SETUP
+# SETUP
 1. To install virtual env, dependencies and run app, execute:
 ```make setup```
 2. Docker:
@@ -52,6 +53,6 @@ If for any reason the system is unable to get a successful response, the failure
 ```docker-compose up -d```
 
 
-## DEBUGGER
+# DEBUGGER
 Debugger (debugpy) is installed and listens on port **5678**
 

@@ -13,7 +13,7 @@
 Add logic to each of the endpoints within the events route (application/routes/events.py) to the best of your knowledge.
 
 **example url:**
-http://localhost:8000/api/events/1
+http://localhost:8000/api/events
 
 
 ## 2. When creating an event, the Logos property of the event needs to be populated with logo links associated with the teams participating in the event.
@@ -47,10 +47,15 @@ If for any reason the system is unable to get a successful response, the failure
 
 # SETUP
 1. To install virtual env, dependencies and run app, execute:
+
 ```make setup```
+
 2. Docker:
+   
 ```docker-compose build```
+
 ```docker-compose up -d```
+
 
 
 # DEBUGGER
